@@ -1,0 +1,105 @@
+body{
+    margin: 0; 
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*********** LOGO ***********/
+.logo img{
+    width: 100px;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+}
+.logo p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+/*********** NAV ***********/
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav li{
+    padding: 0 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2efdc;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+.little-nav{
+    margin-top: 20px;
+}
+.icon{
+    width: 30px;
+    padding: 0 10px;
+}
+/*********** MAIN ***********/
+.main{
+    display: flex;
+}
+#promo{
+    width: 700px;
+    margin: 70px 20px;
+    padding: 30px;
+    border: 10px double #9D6ABE;
+}
+.promo-words{
+    margin: 180px 50px 0 50px;
+    text-align: right;
+}
+.promo-words h3{
+    color: #9D6ABE;
+    font-size: 22px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+}
+.button p{
+    background-color: #9D6ABE;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 300px;
+}
+
+
+/*********** IMG AND CAPTION ***********/
+.img-display{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #ECDDF0;
+    font-weight: bold;
+}
+.img-capt img{
+    width: 350px;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/********** PARAGRAPH **********/
+.paragraph{
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+#button2{
+    font-size: 20px;
+}
+/********** FOOTER **********/
+.footer{
+    background-color: #f2efdc;
+}
